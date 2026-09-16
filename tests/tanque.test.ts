@@ -15,6 +15,13 @@ describe("tanque", () =>{
 
     expect(tanque1.estaVivo()).toBe(false);
  });
+  it("La vida del tanque debe actualizarse", () =>{
+     const t1= new tanque
+ 
+     t1.recibirDisparo()
+ 
+     expect(t1.getVida()).toBe (1)
+  });
 
 })
   

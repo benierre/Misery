@@ -13,7 +13,7 @@ describe("soldado", () => {
      soldado1.recibirDisparo();
 
      expect(soldado1.estaVivo()).toBe(false)
-
+  
     
 });                                                                                                                                                             
 })
