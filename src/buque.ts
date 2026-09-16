@@ -5,6 +5,13 @@ export class buque{
     constructor() {
         this.vida = 3;
     }
+        getVida(): number {
+        return this.vida;
+    }
+
+    setVida(vida: number): void {
+        this.vida = vida;
+    }
 
     recibirDisparo(): void {
         this.vida--;

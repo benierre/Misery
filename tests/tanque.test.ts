@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Tanque } from "../src/Tanque";
+import { tanque } from "../src/Tanque";
 
 describe("tanque", () =>{
  it ("El tanque debe estar vivo", () => {
@@ -15,8 +15,9 @@ describe("tanque", () =>{
 
     expect(tanque1.estaVivo()).toBe(false);
  });
+
 })
- 
+  
 
  
 

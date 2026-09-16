@@ -5,6 +5,13 @@ export class tanque{
    constructor() {
        this.vida = 2;
    }
+       getVida(): number {
+        return this.vida;
+    }
+
+    setVida(vida: number): void {
+        this.vida = vida;
+    }
 
     recibirDisparo(): void {
     this.vida--;
