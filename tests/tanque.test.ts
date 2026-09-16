@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { tanque } from "../src/tanque";
+import { Tanque } from "../src/Tanque";
 
 describe("tanque", () =>{
  it ("El tanque debe estar vivo", () => {

@@ -1,4 +1,4 @@
-export class soldado {
+export class soldado{
 
     private vida: number;
 
@@ -12,5 +12,8 @@ export class soldado {
 
     estaVivo(): boolean {
         return this.vida > 0;
+    }
+
+    disparar(): void{
     }
 }

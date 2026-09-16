@@ -13,4 +13,7 @@ export class buque{
     estaVivo(): boolean {
         return this.vida > 0;
     }
+    
+    disparar(): void{
+    }
 }

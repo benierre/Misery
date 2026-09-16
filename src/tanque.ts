@@ -1,4 +1,5 @@
-export class tanque {
+export class tanque{
+
    private vida: number;
 
    constructor() {
@@ -12,4 +13,8 @@ export class tanque {
    estaVivo(): boolean{
      return this.vida > 0
    }
+
+   
+    disparar(): void{
+    }
 }

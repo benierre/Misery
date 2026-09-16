@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { soldado } from "../src/soldado";
+import { soldado } from "../src/Soldado";
 
 describe("soldado", () => {
   it("Soldado debe estar vivo", () => {
